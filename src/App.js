@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Navegation from "./Componentes/Navegation";
 import Carrusel2 from "./Componentes/Carrusel2";
@@ -10,10 +9,13 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <div>
       <Navegation></Navegation>
+      <Carrusel2></Carrusel2>
+      <Features></Features>
+      <ProductInfo></ProductInfo>
       <Footer></Footer>
-    </Router>
+    </div>
   );
 }
 

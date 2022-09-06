@@ -2,7 +2,6 @@ import React from "react";
 import instaLogo from "../Images/instagram.png";
 import whatsLogo from "../Images/whatsapp.png";
 
-
 const Contact = () => {
   return (
     <div className="contacto ">
@@ -23,5 +22,5 @@ const Contact = () => {
     </div>
   );
 };
-export {instaLogo,whatsLogo}
+export { instaLogo, whatsLogo };
 export default Contact;
